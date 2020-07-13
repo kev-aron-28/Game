@@ -4,8 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piedra, papel, tijera</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
+
+    <main>
+        <h1 class="title">PIEDRA PAPEL O TIJERA</h1>
+
+        <div class="button_player">
+           <button id="piedra" value="piedra" onclick="startGame(value)">PIEDRA</button>
+           <button id="papel" value="papel" onclick="startGame(value)">PAPEL</button>
+           <button id="tijera" value="tijera" onclick="startGame(value)">TIJERA</button>
+        </div>
+
+        <div class="result">
+            <div class="player">
+                <h1>Your Choice: </h1>
+                <div id="choicePlayer"></div>
+            </div>
+            <div class="vs-img">
+                <img src="img/icons8-cabeza-a-cabeza-100.png" alt="" srcset="">
+            </div>
+            <div class="pc">
+                <h1>PC Choice:</h1> 
+                <div id="choicePc"></div>
+            </div>
+        </div>
+        
+     </main>
+
+     <!-- 
+      <img src="img/icons8-puño-en-roca-100.png" alt="">
+     <img src="img/icons8-tijeras-64.png" alt="" srcset="">
+     <img src="img/icons8-toda-la-mano-64.png" alt="" srcset=""> -->
+
     
 </body>
+<script src="index.js"></script>
 </html>

@@ -1,0 +1,54 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EDF6F9;
+}
+
+main h1{
+    text-align: center;
+}
+
+h1:hover{
+    color:violet;
+    transition: .3s;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    background:    #00ff00;
+    background:    linear-gradient(#00ff00, #00beff);
+    border-radius: 11px;
+    padding:       15px 30px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 25px/1 "Caviar", sans-serif;
+    text-align:    center;
+
+}
+
+
+.result{
+    margin-top: 10px;
+    display: flex;  
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+}
+.pc{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 100px;
+}
+
